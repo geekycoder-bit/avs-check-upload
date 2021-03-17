@@ -1,5 +1,5 @@
 from django.db import models
-from phonenumber_field.modelfields import PhoneNumberField
+# from phonenumber_field.modelfields import PhoneNumberField
 
 # Create your models here.
 class Images(models.Model):
@@ -67,7 +67,7 @@ class Contact(models.Model):
     Contact_id = models.AutoField
     name = models.CharField(max_length=50)
     email = models.CharField(max_length=70, default="")
-    phone = PhoneNumberField()
+    # phone = PhoneNumberField()
     msg = models.CharField(max_length=500, default="")
 
     def __str__(self):
