@@ -1,1 +1,1 @@
-web: gunicorn avs.wsgi --log-file 
+web: gunicorn avs.wsgi --log-file -
