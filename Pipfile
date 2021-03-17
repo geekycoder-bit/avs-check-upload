@@ -5,6 +5,20 @@ name = "pypi"
 
 [packages]
 django = "==3.0.1"
+gunicorn = "*"
+whitenoise = "*"
+asgiref = "*"
+boto3 = "*"
+botocore = "*"
+django-filter = "*"
+django-storages = "*"
+docutils = "*"
+jmespath = "*"
+pillow = "*"
+s3transfer = "*"
+six = "*"
+sqlparse = "*"
+urllib3 = "*"
 
 [dev-packages]
 
